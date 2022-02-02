@@ -1,0 +1,11 @@
+.update-plugins, .update-nag {
+	display: none !important;
+}
+#menu-posts-coach a {
+	color: tomato;
+	font-weight: bold !important;
+	text-transform: uppercase;
+}
+#nav-menu-footer {
+  position: static !important;
+}
