@@ -10,6 +10,7 @@ require_once('inc/post-types.php');
 require_once('inc/remove-junk.php');
 require_once('inc/async.php');
 require_once('inc/wpml.php');
+require_once('inc/login-logo.php');
 require_once('inc/disable-comments.php');
 
 // =============================================================
