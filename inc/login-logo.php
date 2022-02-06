@@ -1,7 +1,7 @@
 <?php
 /**
  * Login Logo
- *
+ * 
  * @package      Underscore
  * @author       Gabor Flamich
  * @since        1.0.0
