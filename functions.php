@@ -31,10 +31,10 @@ add_action('admin_print_styles', 'admin_css' );
 // =============================================================
 function add_custom_scripts() {
     // CSS
-    wp_enqueue_style( 'custom-css', THEME . '/assets/css/style.css' );
+    wp_enqueue_style( 'custom-css', THEME . '/assets/build/style.min.css' );
 
     // JavaScript
-    wp_enqueue_script( 'scripts-js', THEME . '/assets/js/build/bundle.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'scripts-js', THEME . '/assets/build/script.min.js', array(), '1.0.0', true );
     wp_enqueue_script( 'hambi-js', THEME . '/assets/js/hamburger.js', array(), '1.0.0', true );
 
     // Google Font
