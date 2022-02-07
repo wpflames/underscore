@@ -137,6 +137,9 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   .overlay {
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
@@ -155,8 +158,8 @@
     z-index: 2;
     h2 {
       font-weight: normal;
-      font-size: 3rem;
-      line-height: 1.2;
+      font-size: 2.2rem;
+      line-height: 1.6;
       margin-bottom: 30px;
     }
   }

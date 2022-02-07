@@ -218,7 +218,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: relative; }
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
   .cover .overlay {
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
@@ -236,8 +239,8 @@
     z-index: 2; }
     .cover .caption h2 {
       font-weight: normal;
-      font-size: 3rem;
-      line-height: 1.2;
+      font-size: 2.2rem;
+      line-height: 1.6;
       margin-bottom: 30px; }
 
 /************************************/
@@ -266,9 +269,19 @@
     .boxes .box#box3 {
       background: linear-gradient(135deg, #000 0%, #000 50%, #00c8c8 100%); }
 
+@media (max-width: 768px) {
+  .buttons a {
+    margin-bottom: 40px;
+    display: block; }
+  .boxes {
+    padding: 0; } }
+
 @media (min-width: 1000px) {
   .boxes {
-    margin-top: -166px; } }
+    margin-top: -166px; }
+  .cover .caption h2 {
+    font-size: 3rem;
+    line-height: 1.6; } }
 
 @media (min-width: 1280px) {
   /************************************/
